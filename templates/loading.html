@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Predicting...</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='loading.css') }}">
+  <script>
+    setTimeout(() => {
+      window.location.href = "{{ url_for('result') }}";  // Or wherever your result route is
+    }, 2500);
+  </script>
+</head>
+<body>
+  <div class="loading-container">
+    <h2>🏍️ Predicting Bike Price...</h2>
+    <img src="{{ url_for('static', filename='bike.png') }}" alt="Bike" class="bike">
+  </div>
+</body>
+</html>

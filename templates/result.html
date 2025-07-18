@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
+</head>
+<body>
+    <div class="result-box">
+        <h2>🎉 Price Prediction Complete!</h2>
+
+        <p><strong>Bike Name:</strong> {{ bike_name }}</p>
+        <p><strong>Predicted Price:</strong> ₹{{ prediction }}</p>
+
+        <a href="/">🔁 Predict Another Bike</a>
+    </div>
+</body>
+</html>
