@@ -20,7 +20,7 @@ The best-performing model is **Random Forest Regressor**.
 ## 💻 App Screenshots
 
 ### 🔹 Home Page
-![Home UI](static/bike.png)
+![Home UI](static/home.png)
 
 ### 🔹 Prediction Result
 ![Result UI](static/result.png)
