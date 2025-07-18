@@ -3,6 +3,16 @@
 This project is a Flask-based web application that predicts the **price of a used bike** based on various input features. The model is trained using machine learning algorithms on real-world bike data.
 
 ---
+## 🔍 Features
+
+- 📊 ML Model: **Random Forest Regressor**
+- 🧠 Trained pipeline with preprocessing (scaling)
+- 🧪 Development done in Jupyter Notebook
+- 🌐 Flask web interface for real-time predictions
+- 🎨 Styled with HTML, CSS
+
+---
+
 
 ## 📊 Model Performance
 
