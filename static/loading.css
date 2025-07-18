@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #000000, #434343);
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.loading-container h2 {
+  margin-bottom: 50px;
+  font-size: 28px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.bike {
+  width: 150px;
+  height: auto;
+  animation: rideAcross 2.5s linear forwards;
+  position: absolute;
+  bottom: 80px;
+  left: -200px;
+}
+
+@keyframes rideAcross {
+  0% { left: -200px; transform: rotateY(0deg); }
+  100% { left: 110%; transform: rotateY(0deg); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
